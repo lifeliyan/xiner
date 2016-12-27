@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_ANDROID_DEBUG	camera_preview_v2.c	59;"	d	file:
+FRAMEBUFER_DEV	camera_preview_v2.c	38;"	d	file:
+IMAGE_HEIGHT	camera_preview_v2.c	41;"	d	file:
+IMAGE_IN_FB_SIZE_RGB565	camera_preview_v2.c	49;"	d	file:
+IMAGE_IN_FB_SIZE_RGB888	camera_preview_v2.c	48;"	d	file:
+IMAGE_SIZE_YUV420	camera_preview_v2.c	46;"	d	file:
+IMAGE_SIZE_YUV422	camera_preview_v2.c	47;"	d	file:
+IMAGE_WIDTH	camera_preview_v2.c	40;"	d	file:
+LCD_HEIGHT	camera_preview_v2.c	44;"	d	file:
+LCD_WIDTH	camera_preview_v2.c	43;"	d	file:
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := camera_preview$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libcutils$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := camera_preview_v2.c$/;"	m
+LOG_TAG	camera_preview_v2.c	22;"	d	file:
+MYLOGD	camera_preview_v2.c	61;"	d	file:
+MYLOGD	camera_preview_v2.c	63;"	d	file:
+PIC_SET_FILE	camera_preview_v2.c	26;"	d	file:
+PREVIEW_DEV	camera_preview_v2.c	36;"	d	file:
+USE_BUF_NUM	camera_preview_v2.c	51;"	d	file:
+buf_index	camera_preview_v2.c	/^static unsigned int buf_index = 0;$/;"	v	file:
+buffer	camera_preview_v2.c	/^struct buffer$/;"	s	file:
+cam_v4l2_dqbuf	camera_preview_v2.c	/^static int cam_v4l2_dqbuf(int dev_fd)$/;"	f	file:
+cam_v4l2_enuminput	camera_preview_v2.c	/^static int cam_v4l2_enuminput(int fp)$/;"	f	file:
+cam_v4l2_g_fmt	camera_preview_v2.c	/^static int cam_v4l2_g_fmt(int dev_fd)$/;"	f	file:
+cam_v4l2_qbuf	camera_preview_v2.c	/^static int cam_v4l2_qbuf(int dev_fd, int index)$/;"	f	file:
+cam_v4l2_querybuf	camera_preview_v2.c	/^static int cam_v4l2_querybuf(int dev_fd, struct v4l2_buffer *buf, int num)$/;"	f	file:
+cam_v4l2_reqbuf	camera_preview_v2.c	/^static int cam_v4l2_reqbuf(int dev_fd, int num)$/;"	f	file:
+cam_v4l2_s_format	camera_preview_v2.c	/^static int cam_v4l2_s_format( int dev_fd, int height, int width, unsigned int fmt)$/;"	f	file:
+cam_v4l2_s_input	camera_preview_v2.c	/^static int cam_v4l2_s_input(int fp, int index)$/;"	f	file:
+cam_v4l2_streamon	camera_preview_v2.c	/^static int cam_v4l2_streamon(int dev_fd, int on)$/;"	f	file:
+close_device	camera_preview_v2.c	/^int close_device(int dev_fd)$/;"	f
+data_buf	camera_preview_v2.c	/^unsigned char *data_buf = NULL ;$/;"	v
+fb_buf	camera_preview_v2.c	/^unsigned char *fb_buf = NULL;$/;"	v
+fimc_v4l2_querycap	camera_preview_v2.c	/^static int fimc_v4l2_querycap(int fp)$/;"	f	file:
+get_pix_depth	camera_preview_v2.c	/^static int get_pix_depth(unsigned int pix_fmt)$/;"	f	file:
+init_cam_device	camera_preview_v2.c	/^static int init_cam_device(int dev_fd)$/;"	f	file:
+init_cam_mmap	camera_preview_v2.c	/^static void init_cam_mmap(int dev_fd)$/;"	f	file:
+init_fb_device	camera_preview_v2.c	/^static int init_fb_device(int dev_fd)$/;"	f	file:
+length	camera_preview_v2.c	/^  size_t length;$/;"	m	struct:buffer	file:
+main	camera_preview_v2.c	/^int main(int argc, char *argv[])$/;"	f
+mainloop	camera_preview_v2.c	/^static void mainloop(int dev_fd)$/;"	f	file:
+max_buffers	camera_preview_v2.c	/^static unsigned int max_buffers = 4;$/;"	v	file:
+open_device	camera_preview_v2.c	/^static int open_device(char *dev_name)$/;"	f	file:
+pic_set_fd	camera_preview_v2.c	/^static int pic_set_fd;$/;"	v	file:
+process_image	camera_preview_v2.c	/^int process_image(unsigned char *src_address)$/;"	f
+read_frame	camera_preview_v2.c	/^int read_frame(int dev_fd)$/;"	f
+show_rgb565_img	camera_preview_v2.c	/^static void show_rgb565_img(unsigned char *data_buf, int width, int height)$/;"	f	file:
+start	camera_preview_v2.c	/^  void *start;$/;"	m	struct:buffer	file:
+start_capturing	camera_preview_v2.c	/^static void start_capturing (int dev_fd)$/;"	f	file:
+user_buffers	camera_preview_v2.c	/^}user_buffers[4];$/;"	v	typeref:struct:buffer
+yuyv_to_rgb	camera_preview_v2.c	/^void yuyv_to_rgb(unsigned char* src, unsigned char *data_buf) $/;"	f
